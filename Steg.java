@@ -20,8 +20,8 @@ public class Steg {
 		 */
 		public static void main(String[] args) throws IOException {
 			Steg stegano = new Steg();
-			//stegano.encrypt("taipei.jpg", "castle.jpg", "saved.bmp");
-			stegano.decrypt("picsou.png","decode");
+			//stegano.encrypt("hideinto.jpg", "tohide.jpg", "saved.bmp");
+			stegano.decrypt("picture_to_decode.png","decode");
 			System.out.println("OK");
 		}
 			public void decrypt(String source,String output) throws IOException{
